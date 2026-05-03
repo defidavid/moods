@@ -3,6 +3,7 @@ import fastifyCors from "@fastify/cors";
 import fastifySensible from "@fastify/sensible";
 import { loadDb } from "./db.js";
 import { registerErrorHandler } from "./plugins/errorHandler.js";
+import { registerAuth } from "./plugins/auth.js";
 
 export async function buildApp(): Promise<FastifyInstance> {
   const isDev = process.env.NODE_ENV !== "production";
@@ -19,6 +20,7 @@ export async function buildApp(): Promise<FastifyInstance> {
   await app.register(fastifySensible);
 
   registerErrorHandler(app);
+  registerAuth(app);
 
   return app;
 }
