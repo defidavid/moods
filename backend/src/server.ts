@@ -5,6 +5,7 @@ import { loadDb } from "./db.js";
 import { registerErrorHandler } from "./plugins/errorHandler.js";
 import { registerAuth } from "./plugins/auth.js";
 import { authRoutes } from "./routes/auth.js";
+import { emotionRoutes } from "./routes/emotions.js";
 
 export async function buildApp(): Promise<FastifyInstance> {
   const isDev = process.env.NODE_ENV !== "production";
@@ -24,6 +25,7 @@ export async function buildApp(): Promise<FastifyInstance> {
   registerAuth(app);
 
   await app.register(authRoutes);
+  await app.register(emotionRoutes);
 
   return app;
 }
