@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Moods",
+    "slug": "moods",
+    "scheme": "moods",
+    "version": "0.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.moods.app"
+    },
+    "android": {
+      "package": "com.moods.app"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
