@@ -2,6 +2,7 @@ import Fastify, { type FastifyInstance } from "fastify";
 import fastifyCors from "@fastify/cors";
 import fastifySensible from "@fastify/sensible";
 import { loadDb } from "./db.js";
+import { seedIfMissing } from "./seed.js";
 import { registerErrorHandler } from "./plugins/errorHandler.js";
 import { registerAuth } from "./plugins/auth.js";
 import { authRoutes } from "./routes/auth.js";
@@ -33,6 +34,7 @@ export async function buildApp(): Promise<FastifyInstance> {
 }
 
 async function main(): Promise<void> {
+  seedIfMissing();
   loadDb();
   const app = await buildApp();
   const port = Number(process.env.PORT ?? 3000);

@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "11111111-1111-4111-8111-111111111101",
+      "userId": "u1",
+      "emotionId": "energetic",
+      "intensity": 4,
+      "note": "Coffee + sunshine.",
+      "loggedAt": "2026-05-02T15:14:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111102",
+      "userId": "u1",
+      "emotionId": "anxious",
+      "intensity": 3,
+      "note": "Inbox spike before standup.",
+      "loggedAt": "2026-05-02T11:42:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111103",
+      "userId": "u1",
+      "emotionId": "grateful",
+      "intensity": 5,
+      "note": "Long walk with the dog.",
+      "loggedAt": "2026-05-01T22:05:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111104",
+      "userId": "u1",
+      "emotionId": "tired",
+      "intensity": 4,
+      "note": null,
+      "loggedAt": "2026-05-01T18:30:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111105",
+      "userId": "u1",
+      "emotionId": "frustrated",
+      "intensity": 3,
+      "note": "Rebased six times.",
+      "loggedAt": "2026-04-30T20:11:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111106",
+      "userId": "u1",
+      "emotionId": "joyful",
+      "intensity": 4,
+      "note": "Got the demo working.",
+      "loggedAt": "2026-04-30T17:45:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111107",
+      "userId": "u1",
+      "emotionId": "calm",
+      "intensity": 2,
+      "note": "Quiet morning.",
+      "loggedAt": "2026-04-29T13:20:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111108",
+      "userId": "u1",
+      "emotionId": "stressed",
+      "intensity": 4,
+      "note": "Two deadlines collided.",
+      "loggedAt": "2026-04-29T19:55:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111109",
+      "userId": "u1",
+      "emotionId": "proud",
+      "intensity": 5,
+      "note": "Shipped the chart.",
+      "loggedAt": "2026-04-28T23:00:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111110",
+      "userId": "u1",
+      "emotionId": "lonely",
+      "intensity": 2,
+      "note": null,
+      "loggedAt": "2026-04-28T05:10:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111111",
+      "userId": "u1",
+      "emotionId": "excited",
+      "intensity": 5,
+      "note": "Trip booked!",
+      "loggedAt": "2026-04-27T16:24:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111112",
+      "userId": "u1",
+      "emotionId": "bored",
+      "intensity": 2,
+      "note": "Long meeting.",
+      "loggedAt": "2026-04-27T21:48:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111113",
+      "userId": "u1",
+      "emotionId": "content",
+      "intensity": 3,
+      "note": "Good food, good company.",
+      "loggedAt": "2026-04-26T20:30:00.000Z"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111114",
+      "userId": "u1",
+      "emotionId": "angry",
+      "intensity": 3,
+      "note": "Got cut off in traffic.",
+      "loggedAt": "2026-04-26T08:15:00.000Z"
+    }
+  ]
+}
