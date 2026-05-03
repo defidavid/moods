@@ -72,7 +72,6 @@ Notes:
     "verbatimModuleSyntax": false,
     "noEmit": true,
     "outDir": "dist",
-    "rootDir": "src",
     "types": ["node"]
   },
   "include": ["src/**/*", "test/**/*"],
